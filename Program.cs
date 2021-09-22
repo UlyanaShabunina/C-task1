@@ -53,6 +53,10 @@ namespace Task1
                     k = i;
                     max = sum;
                 }
+            }  
+            for (int i = 0; i < x; i++)
+            {
+                int sum = 0;
                 for (int j = 0; j < y; j++)
                 {
                     sum += A[i, j];
